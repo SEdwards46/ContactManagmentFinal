@@ -8,6 +8,8 @@ void ContactManager::startGame(){
   //Read Contacts from file store in vector
     vector <Contact> contacts = readContactsFromFile(fileName);
 
+  cout<<"Welcome to the Contact Managment System." << endl;
+
  //Infinite loop that displays as long as program is running and working.
     while (true) {
         cout << endl;
